@@ -28,9 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Lottie.asset(
-        AnimationConstants.SPLASH_NOTE,
-      ),
+      child: Lottie.asset(AnimationConstants.SPLASH_NOTE),
     ));
   }
 }

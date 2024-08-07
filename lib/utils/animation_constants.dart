@@ -1,3 +1,3 @@
 class AnimationConstants {
-  static const SPLASH_NOTE = "assets/animations/splash_note.json";
+  static const SPLASH_NOTE = "assets/animations/splash_notes.json";
 }

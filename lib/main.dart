@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:note_app_april/utils/app_sessions.dart';
 import 'package:note_app_april/view/splash_screen/splash_screen.dart';
 
-void main() {
+Future<void> main() async {
+  //step 1
+  await Hive.initFlutter();
+  var box = await Hive.openBox(AppSessions.NOTEBOX);
+
   runApp(MyApp());
 }
 

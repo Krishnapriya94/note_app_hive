@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DummyDb {
-  static List<Map> notesList = [];
+  // static List<Map> notesList = [];
 
   static List<Color> noteColors = [
     Colors.red.shade300,
